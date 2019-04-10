@@ -1,13 +1,24 @@
 .columns {
     margin: 40px auto 0 auto;
     line-height: 1.5; 
+    display: flex; 
+    justify-content: space-around;
+}
+.columns div {
+    padding: 15px;
 }
 .left {
-background: rgb(255, 194, 250);
+    order: 1;
+    width: 25%;
+    background: rgb(255, 194, 250);
 }
 .main {
+    order: 2;
+    width: 40%;
     background: rgb(177, 171, 255);
    }
 .right {
+    order: 3;
+    width: 25%;
     background: rgb(238, 255, 160)
 }
