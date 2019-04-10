@@ -1,8 +1,7 @@
 .columns {
-    margin: 40px auto 0 auto;
     line-height: 1.5; 
     display: flex; 
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .columns div {
     padding: 15px;
@@ -21,4 +20,16 @@
     order: 3;
     width: 25%;
     background: rgb(238, 255, 160)
+}
+.nav {
+    margin: 0;
+    background: rgb(135, 255, 151);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    font-style: italic;
+}
+a {
+    margin: 40px;
 }
