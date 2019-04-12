@@ -1,7 +1,11 @@
+*{
+	margin: 0px;
+}
 .columns {
     line-height: 1.5; 
     display: flex; 
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .columns div {
     padding: 15px;
@@ -32,4 +36,15 @@
 }
 a {
     margin: 40px;
+}
+.ilya{
+	order: 4;
+	width: 100%;
+	height: auto;
+	background-color: #F45C5C;
+	text-align: center;
+}
+.ilya a{
+	text-decoration: none;
+	font-size: 17px;
 }
